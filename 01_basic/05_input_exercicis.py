@@ -8,14 +8,23 @@
 # Després, mostra un missatge amb aquesta informació.
 tecnic = input("Nom de tecnic: ")
 xarxa = input("Nom de xarxa: ")
-print(f"{tecnic} es instala xarxa {xarxa}")
+print("%s es instala xarxa %s" %(tecnic,xarxa))
 # Exercici 2
 # Demana la longitud d'un enllaç de fibra en quilòmetres i la velocitat de transmissió
 # en Gbps. Mostra quants segons caldrien per transmetre 1 GB de dades.
 # Suposa que 1 GB = 8 Gb i que la velocitat es manté constant.
+enllac = float(input("Longitud de l'enllaç (km): "))
+velocitat = float(input("Velocitat de transmissió (Gbps): "))
+temps = (8 / velocitat) + (enllac / 200000)  # Temps de transmissió + temps de propagació
+print("Temps per transmetre 1 GB: %.2f segons" %temps)
 
 
 # Exercici 3
 # Demana el nombre d'hores de feina i el preu per hora d'una instal·lació de xarxa.
 # Demana també el preu del material.
 # Mostra el cost total de la instal·lació.
+hores = float(input("Nombre d'hores de feina: "))
+preu_hora = float(input("Preu per hora: "))
+preu_material = float(input("Preu material: "))
+total = (hores * preu_hora) + preu_material
+print("Cost total: %.2f" %total)  
