@@ -6,8 +6,9 @@
 # Exercici 1
 # Demana el nom d'un tècnic i el nom de la xarxa que està instal·lant.
 # Després, mostra un missatge amb aquesta informació.
-
-
+tecnic = input("Nom de tecnic: ")
+xarxa = input("Nom de xarxa: ")
+print(f"{tecnic} es instala xarxa {xarxa}")
 # Exercici 2
 # Demana la longitud d'un enllaç de fibra en quilòmetres i la velocitat de transmissió
 # en Gbps. Mostra quants segons caldrien per transmetre 1 GB de dades.
