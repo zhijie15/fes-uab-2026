@@ -17,7 +17,7 @@ print("\nExercici 2: Mostra els tipus de dades de les variables següents:")
 print("Utilitza la comanda 'type()' per determinar el tipus de dades de cada variable.")
 a = 15
 b = 3.14159
-c = "Hola mundo"
+c = "Hola món"
 d = True
 e = None
 
@@ -50,9 +50,9 @@ print("\nExercici 4: Variables")
 print("Crea variables per al teu nom, edat i alçada.")
 print("Utilitza f-strings per imprimir una presentació.")
 
-# "Hola! Em dic Marc, tinc 38 anys i faig 1.75 metres"
+# "Hola! Em dic Marc, tinc 40 anys i faig 1.75 metres"
 #name = "Marc"
-#age = 38
+#age = 40
 
 ### Completa aquí
 name = "Zhijie"
