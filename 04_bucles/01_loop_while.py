@@ -3,9 +3,6 @@
 # Permeten executar un bloc de codi repetidament mentre es compleixi una condició
 ###
 
-import os
-os.system("cls") # neteja la pantalla
-
 # print("\n Bucle while:")
 
 # Bucle amb una condició simple
@@ -61,15 +58,15 @@ os.system("cls") # neteja la pantalla
 
 # comptador = 0
 # while comptador < 5:
-#     print(f"El comptador és {comptador}")
+#     print(f"El comptador = {comptador}")
 #     comptador += 1
 # else:
 #     print("El bucle while ha acabat de forma natural.")
-#     print(f"El valor final del comptador és {comptador}.")
+#     print(f"El valor final del comptador = {comptador}.")
 
 # numero = 0
 # while numero < 10:
-#     print(f"El número és {numero}")
+#     print(f"El nombre = {numero}")
 #     if numero == 3:
 #         print("Hem arribat al 3! Trencant el bucle.")
 #         break  # Interromp el bucle
@@ -77,7 +74,7 @@ os.system("cls") # neteja la pantalla
 # else:
 #     print("Aquest missatge no s'imprimirà perquè el bucle ha estat interromput per 'break'.")
 
-# print("El programa ha continuat després del bucle.")
+# print("El programa ha continuat despres del bucle.")
 
 # Sortida esperada:
 # El número és 0
@@ -98,13 +95,13 @@ os.system("cls") # neteja la pantalla
 
 # demanar a l'usuari un número que ha
 # de ser positiu, si no, no el deixem en pau
-# numero = -1
-# while numero < 0:
-#   numero = int(input("Escriu un número positiu: "))
-#   if numero < 0:
-#     print("El número ha de ser positiu. Torna-ho a provar.")
+numero = -1
+while numero < 0:
+  numero = int(input("Escriu un número positiu: "))
+  if numero < 0:
+    print("El número ha de ser positiu. Torna-ho a provar.")
 
-# print(f"El número que has introduït és {numero}")
+print(f"El número que has introduït és {numero}")
 
 # numero = -1
 # while numero < 0:
@@ -117,38 +114,3 @@ os.system("cls") # neteja la pantalla
 
 # print(f"El número que has introduït és {numero}")
 
-###
-# EXERCICIS (while)
-###
-
-# # Exercici 1: Compte enrere
-# # Imprimeix els números del 10 a l'1 fent servir un bucle while.
-# print("\nExercici 1:")
-
-# # Exercici 2: Suma de números parells (while)
-# # Calcula la suma dels números parells entre 1 i 20 (inclosos) fent servir un bucle while.
-# print("\nExercici 2:")
-
-# # Exercici 3: Factorial d'un número
-# # Demana a l'usuari que introdueixi un número enter positiu.
-# # Calcula el seu factorial fent servir un bucle while.
-# # El factorial d'un número enter positiu és el producte de tots els números de l'1 fins a aquest número. Per exemple, el factorial de 5
-# # 5! = 5 x 4 x 3 x 2 x 1 = 120.
-# print("\nExercici 3:")
-
-# # Exercici 4: Validació de contrasenya
-# # Demana a l'usuari que introdueixi una contrasenya.
-# # La contrasenya ha de tenir almenys 8 caràcters.
-# # Fes servir un bucle while per continuar demanant la contrasenya fins que compleixi els requisits.
-# # Si la contrasenya és vàlida, imprimeix "Contrasenya vàlida".
-# print("\nExercici 4:")
-
-# # Exercici 5: Taula de multiplicar
-# # Demana a l'usuari que introdueixi un número.
-# # Imprimeix la taula de multiplicar d'aquest número (de l'1 al 10) fent servir un bucle while.
-# print("\nExercici 5:")
-
-# # Exercici 6: Números primers fins a N
-# # Demana a l'usuari que introdueixi un número enter positiu N.
-# # Imprimeix tots els números primers menors o iguals que N fent servir un bucle while.
-# print("\nExercici 6:")
